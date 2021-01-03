@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>My Resume</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.header {
+  padding: 35px;
+  text-align: center;
+  background: #cd9174;
+  color: #cd9174;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #cd9174;	
+  padding: 10;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: Black;
+  border-bottom: 3px solid transparent;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+a:visited { 
+  color: white
+}
+
+
+.navbar a.right {
+  float: right;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  border-bottom: 3px solid red;
+  color: black;
+}
+
+.navbar a.active {
+  background-color: #666;
+  color: white;
+}
+
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+.fakeimg {
+  background-color: #aaa;
+  width: 95%;
+  padding: 20px;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #cd9174;
+}
+
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <p><img src ="image.heading.png" width ="1024px" height ="256px"</p>
+</div>
+
+<div class="navbar">
+  <a href="Home.html">Home</a>
+  <a href="Personal-Detail.html" class="active">Personal Detail</a>
+  <a href="Educational.html">Educational</a>
+  <a href="Co-Curricular-Act.html">Co-Curricular Activities</a>
+  <a href="Achievements.html">Achievements</a>
+  <a href="Objectives.html" class="right">Objectives</a>
+</div>
+
+<div class="row">
+  <div class="side">
+  <center><h2>About Me</h2>
+    <div class="fakeimg" style="height:450px;"><img src="photo.jpg" width="250" height="400"alt="Beautiful Girl" top: 0px; left: 0px"></div></center>
+  </div>
+  <div class="main">
+    <center><h2>PERSONAL DETAILS</h2></center>
+    <hr>
+    <div class="fakeimg" style="height:450px;">
+    <ul><li><b>Name :</b> Noor Hafizah Binti Othman</li>
+    <li><p><b>NRIC Number :</b> 990929-12-5036<br></p>
+    <li><p><b>Date Of Birth :</b> 29 September 1999</li></p>
+    <li><p><b>Place Of Birth :</b> Hospital Semporna, Sabah</li></p>
+    <li><p><b>Religion :</b> Islam<br></p>
+    <li><p><b>Status :</b> Single<br></p></li>
+    <li><p><b>Gender :</b> Female</p></li>
+    <li><p><b>Address :</b> Ibu Pejabat Batalion 14, Pasukan Gerakan Am, 91011, Tawau Sabah.</p></li>
+    <li><b>Nationality :</b> Malaysia</p></li><br>
+    <center><a href="https://web.facebook.com/?_rdc=1&_rdr" target="_blank"><img src="icon1.png" width="60" height="60"></a>
+	<a href="https://www.instagram.com/cooveyyy/" target="_blank"><bottom right><img src="icon3.png" width="50" height="50"></a>
+	<a href="https://twitter.com/home?lang=en" target="_blank"><img src="icon5.png" width="50" height="50"></a>
+	<a href="https://www.pinterest.com/"  target="_blank"><bottom right><img src="popop.png" width="50" height="50"></a></center></div></li>
+    
+    </ul>
+
+
+  </div>
+</div>
+
+<div class="footer">
+  <p>Copyright © 2017 Noor Hafizah B‌inti Othman.
+   <br>Recommended Browser Google Chrome Resolution 1366x768.<p>
+  <p>*Only For Assignments Purpose*</p>
+</div>
+
+</body>
+</html>

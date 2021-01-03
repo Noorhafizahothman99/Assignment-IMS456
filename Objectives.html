@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>My Resume</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.header {
+  padding: 35px;
+  text-align: center;
+  background: #cd9174;
+  color: #cd9174;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #cd9174;	
+  padding: 10;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: Black;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+.navbar a.right {
+  float: right;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.navbar a.active {
+  background-color: #666;
+  color: white;
+}
+
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+.fakeimg {
+  background-color: #aaa;
+  width: 95%;
+  padding: 20px;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #cd9174;
+}
+
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <p><img src ="image.heading.png" width ="1024px" height ="256px"</p>
+</div>
+
+<div class="navbar">
+   <a href="Home.html">Home</a>
+  <a href="Personal-Detail.html">Personal Detail</a>
+  <a href="Educational.html">Educational</a>
+  <a href="Co-Curricular-Act.html">Co-Curricular Activities</a>
+  <a href="Achievements.html">Achievements</a>
+  <a href="Objectives.html" class="right" class="active">Objectives</a>
+</div>
+
+<div class="row">
+  <div class="main">
+    <center><h2>Why You Need Hire Me?</h2> 
+    <hr>
+    <div class="fakeimg" style="height:150px;">
+    <p>I believe that my experience with technology, specifically in the web design space, 
+    make me the best match for this position. In my previous job,
+    I was responsible for maintaining and updating our company website. 
+    This required keeping employee profiles updated and continuously posting information regarding upcoming events. 
+    I truly enjoyed what I was doing, which is what drew me to this position with your company.
+    I would love to bring the coding and content skills I learned there to this position.</div></b></center>
+    
+  </div>
+</div>
+
+<div class="footer">
+  <p>Copyright © 2017 Noor Hafizah B‌inti Othman.
+   <br>Recommended Browser Google Chrome Resolution 1366x768.<p>
+  <p>*Only For Assignments Purpose*</p>
+</div>
+
+</body>
+</html>
